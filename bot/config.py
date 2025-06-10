@@ -17,12 +17,12 @@ def is_enabled(value, default):
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", ""))
-    API_HASH = os.environ.get("API_HASH", "")
+    API_ID = int(os.environ.get("API_ID", "23274330"))
+    API_HASH = os.environ.get("API_HASH", "970e2e79779707c56d2b453b3a6eea48")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    DATABASE_NAME = os.environ.get("DATABASE_NAME", "tg_bot")
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    DATABASE_NAME = os.environ.get("DATABASE_NAME", "SAMEER KI LATEST UPLOADER")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "https://t.me/SAMEERLATESTUPLOADERBOT")
+    OWNER_ID = int(os.environ.get("OWNER_ID", "7431004177"))
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
     WEB_SERVER = is_enabled(os.environ.get("WEB_SERVER", "False"), False)
     WEBHOOK = True  # Don't change this
