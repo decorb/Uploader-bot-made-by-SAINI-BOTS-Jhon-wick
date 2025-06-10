@@ -21,7 +21,7 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH", "970e2e79779707c56d2b453b3a6eea48")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "samerkijaan")
-    DATABASE_URL = os.environ.get("DATABASE_URL", "MONGO_DBmongodb+srv://LOVIKA:<db_password>@cluster0.tp0nj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "MONGO_DB mongodb+srv://LOVIKA:<db_password>@cluster0.tp0nj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     OWNER_ID = int(os.environ.get("OWNER_ID", "7431004177"))
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
     WEB_SERVER = is_enabled(os.environ.get("WEB_SERVER", "False"), False)
